@@ -14,6 +14,7 @@
  - Login com credenciais inválidas (senha errada).
  - Login com campo de e-mail inválido.
  - Login com campo de senha vazio.
+ - Login com sucesso.
 
 4. Casos de Testes:
    
@@ -25,6 +26,8 @@
 
 5. Estimativa de Tempo de Teste:   
 
+  - Fiz uma primeira execução dos testes para ver o tempo de cada caso de testes e no final o tempo que levou para executar todos, podendo etimar o tempo conforme abaixo:
+    
     ✓ usuário obrigatório (1041ms)
     ✓ senha obrigatória (507ms)
     ✓ usuário não existe (754ms)
@@ -47,11 +50,16 @@ Repositório do Desafio: Workflow de testes contínuos em Cypress no Github Acti
 ## Rodando
 
 1. Clicar na aba Actions no Github
-2. Clicar no Workflow Cypress Tests
+2. Clicar no Workflow Cypress Tests, para rodar direto no Actions
 3. Clicar no botão Run Workflow para executar os testes automatizados
-
-Obs: Tentei automatizar os testes usando o push no workflow, mas para executar os testes teria que ser feito um commit, por isso criei o botão para executar os testes automatizados sem precisar fazer commit o que pra mim fez mais sentido a função de automatizar usando o actions.
    
+Obs: Ciei o botão para executar os testes automatizados sem precisar fazer commit (Pensei em executar os testes todas vez que fosse feito um commit) o que pra mim fez mais sentido a função de automatizar usando o actions.
+
+## Rodando no Cloud
+1. Clicar na aba Actions no Github
+2. Clicar no Workflow Cypress Cloud, para rodar direto no Cypress Cloud
+3. Clicar no botão Run Workflow para executar os testes automatizados   
  - Executa os testes automatizados toda vez que clicar no botão Run Worklow.
 
+Obs: Ciei o Workflow Cypress Cloud, para executar os testes automatizados direto no Cypress Cloud, gerando o Cypress results que dá acesso ao link do dashboard dos testes na nuvem, podendo acessar cada teste que por sinal passou todos, a versão do navegador mostra o agrupamento que foi criado via script, qual que foi o sistema operacional e máquina que rodou o teste, se eu clicar no teste eu tenho aqui mais informações, clicando no play eu posso ver o vídeo posso ver a execução do teste em real time real Time.
 
