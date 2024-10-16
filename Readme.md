@@ -1,8 +1,8 @@
 ## Sobre
 
-1. Vou simular a escolha de um site, que geralmente tem fluxos amplamente utilizados, como login. Os fluxos escolhidos para este exemplo serão:
+1. Vou simular como logar um site, que geralmente tem fluxos amplamente utilizados. Os fluxos escolhidos para este exemplo serão:
 
- - Fluxo de login (com credenciais válidas e inválidas)
+ - Fluxo de login (com credenciais válidas, inválidas, e-mail inválido, campo de senha vazia)
 
 2. Como um usuário, eu gostaria de:
    
@@ -33,7 +33,7 @@
     Total: 4 segundos.
 
 6. Desenvolvimento de Testes Automatizados (Cypress)
-Aqui está um exemplo de como os testes automatizados seriam implementados para o fluxo de login e o fluxo de busca de produto, utilizando Cypress.
+Aqui está um exemplo de como os testes automatizados seriam implementados para o fluxo de login, utilizando Cypress.
 
 Repositório do Desafio: Workflow de testes contínuos em Cypress no Github Actions
 
@@ -45,18 +45,8 @@ Repositório do Desafio: Workflow de testes contínuos em Cypress no Github Acti
 
 ## Rodando
 
-1. Clonar o repositório, instalar as dependências
-```
-yarn / npm install
-```
+1. Workflow de Automação de Testes no Github Actions:
+   
+ - Executa os testes automatizados toda vez que clicar no botão Run Worklow.
 
-2. Subir o Cypress UI
-```
-yarn cypress open / npx cypress open 
-```
-
-3. Executar testes em Headless
-```
-yarn cypress run / npx cypress run 
-```
 
