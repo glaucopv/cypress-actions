@@ -28,11 +28,11 @@
 
   - Fiz uma primeira execução dos testes para ver o tempo de cada caso de testes e no final o tempo que levou para executar todos, podendo etimar o tempo conforme abaixo:
     
-   ✓ usuário obrigatório (1041ms)
-   ✓ senha obrigatória (507ms)
-   ✓ usuário não existe (754ms)
-   ✓ senha incorreta (726ms)
-   ✓ com sucesso (802ms)
+    - usuário obrigatório (1041ms)
+    - senha obrigatória (507ms)
+    - usuário não existe (754ms)
+    - senha incorreta (726ms)
+    - com sucesso (802ms)
    - Total: 4 segundos.
 
 6. Desenvolvimento de Testes Automatizados (Cypress):
