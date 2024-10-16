@@ -1,6 +1,6 @@
 ## Sobre
 
-1. Vou simular como logar um site, que geralmente tem fluxos amplamente utilizados. Os fluxos escolhidos para este exemplo serão:
+1. Vou simular como logar em um site. Os fluxos escolhidos para este exemplo serão:
 
  - Fluxo de login (com credenciais válidas, inválidas, e-mail inválido, campo de senha vazia)
 
@@ -32,8 +32,9 @@
     ✓ com sucesso (802ms)
     Total: 4 segundos.
 
-6. Desenvolvimento de Testes Automatizados (Cypress)
-Aqui está um exemplo de como os testes automatizados seriam implementados para o fluxo de login, utilizando Cypress.
+6. Desenvolvimento de Testes Automatizados (Cypress):
+   
+ - Aqui está um exemplo de como os testes automatizados seriam implementados para o fluxo de login, utilizando Cypress.
 
 Repositório do Desafio: Workflow de testes contínuos em Cypress no Github Actions
 
