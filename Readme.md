@@ -46,7 +46,11 @@ Repositório do Desafio: Workflow de testes contínuos em Cypress no Github Acti
 
 ## Rodando
 
-1. Workflow de Automação de Testes no Github Actions:
+1. Clicar na aba Actions no Github
+2. Clicar no Workflow Cypress Tests
+3. Clicar no botão Run Workflow para executar os testes automatizados
+
+Obs: Tentei automatizar os testes usando o push no workflow, mas para executar os testes teria que ser feito um commit, por isso criei o botão para executar os testes automatizados sem precisar fazer commit o que pra mim fez mais sentido a função de automatizar usando o actions.
    
  - Executa os testes automatizados toda vez que clicar no botão Run Worklow.
 
