@@ -30,7 +30,7 @@
     ✓ usuário não existe (754ms)
     ✓ senha incorreta (726ms)
     ✓ com sucesso (802ms)
-    Total: 12 minutos.
+    Total: 4 segundos.
 
 6. Desenvolvimento de Testes Automatizados (Cypress)
 Aqui está um exemplo de como os testes automatizados seriam implementados para o fluxo de login e o fluxo de busca de produto, utilizando Cypress.
