@@ -1,36 +1,36 @@
 ## Sobre
 
-1. Escolha do site e fluxos de teste
-Vou simular a escolha de um site, que geralmente tem fluxos amplamente utilizados, como login. Os fluxos escolhidos para este exemplo serão:
+1. Vou simular a escolha de um site, que geralmente tem fluxos amplamente utilizados, como login. Os fluxos escolhidos para este exemplo serão:
 
-Fluxo de login (com credenciais válidas e inválidas)
-2. História do Usuário
-Como um usuário, eu gostaria de:
-Fazer login com minhas credenciais para acessar minha conta.
+ - Fluxo de login (com credenciais válidas e inválidas)
 
-3. Critérios de Aceite
-Para o fluxo de login:
+2. Como um usuário, eu gostaria de:
+   
+ - Fazer login com minhas credenciais para acessar minha conta.
 
-O sistema deve permitir que o usuário faça login com credenciais válidas.
-O sistema deve exibir uma mensagem de erro para credenciais inválidas.
-Após o login, o usuário deve ser redirecionado para a página inicial.
+3. O sistema deve validar:
 
-4. Casos de Testes
-Fluxo de Login:
+ - Login com credenciais válidas.
+ - Login com credenciais inválidas (senha errada).
+ - Login com campo de e-mail inválido.
+ - Login com campo de senha vazio.
 
-Login com credenciais válidas.
-Login com credenciais inválidas (senha errada).
-Login com campo de e-mail inválido.
-Login com campo de senha vazio.
+4. Casos de Testes:
+   
+ - Login com usuário obrigatório.
+ - Login com senha obrigatória.
+ - Login com usuário não existe.
+ - Login com senha incorreta.
+ - Login com sucesso.
 
-5. Estimativa de Tempo de Teste
-Fatores Considerados:
-Complexidade de cada fluxo.
-Quantidade de casos de teste por fluxo.
-Tempo de execução de cada teste.
-Tempo de depuração caso um teste falhe.
-Estimativa:
-Fluxo de login: 4 casos de teste, cada um levando cerca de 3 minutos (incluso tempo de setup). Total: 12 minutos.
+5. Estimativa de Tempo de Teste:   
+
+    ✓ usuário obrigatório (1041ms)
+    ✓ senha obrigatória (507ms)
+    ✓ usuário não existe (754ms)
+    ✓ senha incorreta (726ms)
+    ✓ com sucesso (802ms)
+    Total: 12 minutos.
 
 6. Desenvolvimento de Testes Automatizados (Cypress)
 Aqui está um exemplo de como os testes automatizados seriam implementados para o fluxo de login e o fluxo de busca de produto, utilizando Cypress.
