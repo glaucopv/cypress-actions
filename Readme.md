@@ -62,5 +62,5 @@ Obs: Criei o botão para executar os testes automatizados sem precisar fazer com
 3. Clicar no botão Run Workflow para executar os testes automatizados   
  - Executa os testes automatizados toda vez que clicar no botão Run Worklow.
 
-Obs: Criei o Workflow Cypress Cloud, para executar os testes automatizados direto no Cypress Cloud, gerando o Cypress results que dá acesso ao link do dashboard dos testes na nuvem, podendo acessar cada teste que por sinal passou todos, a versão do navegador mostra o agrupamento que foi criado via script, qual que foi o sistema operacional e máquina que rodou o teste, se eu clicar no teste eu tenho aqui mais informações, clicando no play eu posso ver o vídeo posso ver a execução do teste em real time real Time.
+Obs: Criei o Workflow Cypress Cloud, para executar os testes automatizados direto no Cypress Cloud, gerando o Cypress results que dá acesso ao link do dashboard dos testes na nuvem, podendo acessar cada teste que por sinal passou todos, mostra a versão do navegador mostra o agrupamento que foi criado via script, qual que foi o sistema operacional e máquina que rodou o teste, se eu clicar no teste eu tenho aqui mais informações, clicando no play eu posso ver o vídeo posso ver a execução do teste em real time real Time.
 
