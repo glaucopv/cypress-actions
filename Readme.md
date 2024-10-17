@@ -26,7 +26,7 @@
 
 5. Estimativa de Tempo de Teste:   
 
-  - Fiz uma primeira execução dos testes para ver o tempo de cada caso de testes e no final o tempo que levou para executar todos, podendo etimar o tempo conforme abaixo:
+  - Fiz uma primeira execução dos testes para ver o tempo de cada caso de testes e no final o tempo que levou para executar todos, podendo estimar o tempo conforme abaixo:
     
     - usuário obrigatório (1041ms)
     - senha obrigatória (507ms)
