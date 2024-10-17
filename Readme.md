@@ -45,7 +45,6 @@ Repositório do Desafio: Workflow de testes contínuos em Cypress no Github Acti
 - Cypress
 - Javascript
 - Cypress Dashboard
-- Tesults
 
 ## Rodando no Actions
 
@@ -55,14 +54,14 @@ Repositório do Desafio: Workflow de testes contínuos em Cypress no Github Acti
    
 Obs: Criei o botão para executar os testes automatizados sem precisar fazer commit (Pensei em executar os testes todas vez que fosse feito um commit) o que pra mim fez mais sentido a função de automatizar usando o actions.
 
-## Rodando no Cypress Cloud
+## Gerar resultados no Cypress Cloud
 
 1. Clicar na aba Actions no Github
-2. Clicar no Workflow Cypress Cloud, para rodar direto no Cypress Cloud
+2. Clicar no Workflow Cypress Cloud, para gerar os resultados direto no Cypress Cloud
 3. Clicar no botão Run Workflow para executar os testes automatizados   
  - Executa os testes automatizados toda vez que clicar no botão Run Worklow.
  - Configurei as variaveis e o ambiente de testes com uma imagem docker node18, que contem os navegadores electron, chrome, e firefox
  - realizei os testes em multibrowser aumentando a cobertura dos testes, uma vez que rodei os teste no navegagor electron e depois rodei nos outros navegadores para testar a compatibilidade com outro navegadores
 
-Obs: Criei o Workflow Cypress Cloud, para executar os testes automatizados direto no Cypress Cloud, gerando o Cypress results que dá acesso ao link do dashboard dos testes na nuvem, podendo acessar cada teste que por sinal passou todos, mostra a versão do navegador mostra o agrupamento que foi criado via script, qual que foi o sistema operacional e máquina que rodou o teste, se eu clicar no teste eu tenho aqui mais informações, clicando no play eu posso ver o vídeo posso ver a execução do teste em real time.
+Obs: Criei o Workflow Cypress Cloud, para executar os testes automatizados e gerar o relatório direto no Cypress Cloud, gerando o Cypress results que dá acesso ao link do dashboard dos testes na nuvem, podendo acessar cada teste que por sinal passou todos, mostra a versão do navegador mostra o agrupamento que foi criado via script, qual que foi o sistema operacional e máquina que rodou o teste, se eu clicar no teste eu tenho aqui mais informações, clicando no play eu posso ver o vídeo posso ver a execução do teste em real time.
 
